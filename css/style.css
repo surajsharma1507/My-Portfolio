@@ -195,7 +195,14 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: green;
+}
+
+.nav-menu li:hover>a {
+  transform: translateX(25px);
+  color: red;
+  border-radius: 30px;
+  box-shadow: 0 0 20px blue;
 }
 
 .nav-menu a:hover i,
